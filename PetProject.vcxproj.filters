@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\States">
+      <UniqueIdentifier>{78929fa5-d37c-46a4-9b59-ea2acbc3eba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Hotaro">
+      <UniqueIdentifier>{b12bf36a-4254-48d3-a0be-c269fdea7e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Commands">
+      <UniqueIdentifier>{de7e5cb3-abcd-446e-aa15-e050902223c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\States">
+      <UniqueIdentifier>{8019dffc-e7f5-4fc0-b550-622d873431ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PetProject.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadState.cpp">
+      <Filter>Archivos de origen\States</Filter>
+    </ClCompile>
+    <ClCompile Include="hotaro.cpp">
+      <Filter>Archivos de origen\Hotaro</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyState.cpp">
+      <Filter>Archivos de origen\States</Filter>
+    </ClCompile>
+    <ClCompile Include="TiredState.cpp">
+      <Filter>Archivos de origen\States</Filter>
+    </ClCompile>
+    <ClCompile Include="HungryState.cpp">
+      <Filter>Archivos de origen\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepingState.cpp">
+      <Filter>Archivos de origen\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayCommand.h">
+      <Filter>Archivos de encabezado\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Archivos de encabezado\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="hotaro.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HotaroState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HungryState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TiredState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepingState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
